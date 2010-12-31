@@ -16,6 +16,7 @@
 		A570DBF611FF0DA800B5596C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A570DBF511FF0DA800B5596C /* icon.png */; };
 		A570DBFF11FF11CB00B5596C /* marker.m in Sources */ = {isa = PBXBuildFile; fileRef = A570DBFE11FF11CB00B5596C /* marker.m */; };
 		A570DC1F11FF1A3800B5596C /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = A570DC1E11FF1A3800B5596C /* target.png */; };
+		A5AD076812CDF85700A5B849 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AD076712CDF85700A5B849 /* mainViewController.m */; };
 		A5EF8D8911F874260060D5A4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EF8D8811F874260060D5A4 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		A570DBFD11FF11CB00B5596C /* marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = marker.h; sourceTree = "<group>"; };
 		A570DBFE11FF11CB00B5596C /* marker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = marker.m; sourceTree = "<group>"; };
 		A570DC1E11FF1A3800B5596C /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		A5AD076612CDF85700A5B849 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		A5AD076712CDF85700A5B849 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
 		A5EF8D8811F874260060D5A4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +63,8 @@
 				1D3623250D0F684500981E51 /* mapKitAppDelegate.m */,
 				A570DBFD11FF11CB00B5596C /* marker.h */,
 				A570DBFE11FF11CB00B5596C /* marker.m */,
+				A5AD076612CDF85700A5B849 /* mainViewController.h */,
+				A5AD076712CDF85700A5B849 /* mainViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* mapKitAppDelegate.m in Sources */,
 				A570DBFF11FF11CB00B5596C /* marker.m in Sources */,
+				A5AD076812CDF85700A5B849 /* mainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +227,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface mapKitAppDelegate : NSObject <UIApplicationDelegate, MKMapViewDelegate>
+@interface mapKitAppDelegate : NSObject
 {
     UIWindow *window;
 }
